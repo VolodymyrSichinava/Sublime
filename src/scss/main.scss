@@ -10,3 +10,10 @@
 // }
 
 @import "./components/header";
+@import "./components/about";
+
+.main {
+  margin: 0 auto;
+  width: 1198px;
+  background-color: #fff;
+}

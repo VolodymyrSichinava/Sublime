@@ -1,0 +1,118 @@
+@import "../mixins";
+
+.about-wrapper {
+  padding: 34px 0 45px;
+
+  .about {
+    display: flex;
+    margin-bottom: 69px;
+
+    &-title {
+      padding: 25px 0 0 131px;
+      width: 663px;
+
+      p {
+        @include myriadProSemibold;
+
+        position: relative;
+        font-size: 80px;
+        line-height: 44px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          right: 17px;
+          top: -13px;
+          width: 1px;
+          height: 133px;
+          background-color: #c5c5c5;
+        }
+
+        &::after {
+          @include gray-line;
+        }
+
+        span {
+          @include myriadProRegular;
+
+          font-size: 30px;
+          color: #717171;
+        }
+
+        i {
+          padding-left: 6px;
+          font-size: 50px;
+          letter-spacing: 1px;
+        }
+
+        b {
+          color: #ffc600;
+        }
+      }
+    }
+
+    &-description {
+      padding-left: 4px;
+      width: 690px;
+
+      &__title {
+        @include myriadProIt;
+
+        padding-bottom: 17px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000;
+      }
+
+      &__text {
+        @include myriadProRegular;
+
+        font-size: 14px;
+        line-height: 17px;
+        color: #595959;
+      }
+    }
+  }
+
+  .about-column {
+    display: flex;
+    padding: 0 110px;
+    text-align: center;
+
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 44px;
+
+      &__icon {
+        margin-bottom: 22px;
+        border: 2px solid #ffc600;
+        border-radius: 50%;
+        width: 57px;
+        height: 57px;
+        background-image: url("../img/about-icon.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #e8e8e8;
+      }
+
+      p {
+        @include myriadProSemibold;
+
+        margin-bottom: 18px;
+        font-size: 19px;
+        letter-spacing: -0.5px;
+      }
+
+      i {
+        @include myriadProIt;
+
+        display: block;
+        margin-bottom: 12px;
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+}

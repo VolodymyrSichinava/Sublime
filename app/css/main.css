@@ -1,0 +1,86 @@
+.header-wrapper {
+  padding-top: 106px;
+  background-image: url("../../img/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header-wrapper .header {
+    margin: 0 auto;
+    width: 1198px; }
+    .header-wrapper .header-title {
+      padding-bottom: 64px;
+      padding-left: 28px; }
+      .header-wrapper .header-title h1 {
+        font-family: "MyriadPro-Bold";
+        font-weight: 700;
+        font-size: 202px;
+        line-height: 173px;
+        letter-spacing: -10px;
+        color: #fff; }
+        .header-wrapper .header-title h1 span {
+          font-family: "MyriadPro-Bold";
+          font-weight: 700;
+          color: #ffc600; }
+      .header-wrapper .header-title p {
+        font-family: "MyriadPro-Regular";
+        font-weight: 400;
+        padding-bottom: 27px;
+        padding-left: 14px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff; }
+        .header-wrapper .header-title p span {
+          color: #ffc600; }
+      .header-wrapper .header-title a {
+        font-family: "MyriadPro-Regular";
+        font-weight: 400;
+        border-bottom: 1px solid transparent;
+        padding-left: 14px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #ffc600;
+        transition: all 0.5s; }
+        .header-wrapper .header-title a:hover {
+          border-bottom: 1px solid #ffc600;
+          color: #fff;
+          transition: all 0.5s; }
+    .header-wrapper .header-subtitle {
+      padding-left: 46px;
+      height: 654px;
+      background-image: url("../img/header-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat; }
+      .header-wrapper .header-subtitle h2 {
+        font-family: "MyriadPro-Bold";
+        font-weight: 700;
+        padding-top: 68px;
+        padding-bottom: 54px;
+        font-size: 60px;
+        line-height: 48px;
+        letter-spacing: -3px;
+        color: #fff; }
+      .header-wrapper .header-subtitle span {
+        color: #ffc600; }
+      .header-wrapper .header-subtitle__menu {
+        margin-left: -3px; }
+        .header-wrapper .header-subtitle__menu ul {
+          display: flex; }
+          .header-wrapper .header-subtitle__menu ul li {
+            margin-right: 34px; }
+            .header-wrapper .header-subtitle__menu ul li a {
+              font-family: "MyriadPro-Regular";
+              font-weight: 400;
+              border-bottom: 1px solid transparent;
+              padding-bottom: 1px;
+              font-size: 18px;
+              text-decoration: none;
+              color: #ffc600;
+              transition: all 0.5s; }
+              .header-wrapper .header-subtitle__menu ul li a:hover {
+                color: #fff;
+                transition: all 0.5s; }
+              .header-wrapper .header-subtitle__menu ul li a:active {
+                border-bottom: 1px solid #ffc600;
+                text-decoration: none;
+                color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

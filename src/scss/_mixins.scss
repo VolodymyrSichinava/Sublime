@@ -1,3 +1,55 @@
 @import "./mixins/breakpoint";
 @import "./mixins/burger";
 @import "./mixins/font-face";
+
+@mixin myriadProBold {
+  font-family: "MyriadPro-Bold";
+  font-weight: 700;
+}
+
+@mixin myriadProBold {
+  font-family: "MyriadPro-Bold";
+  font-weight: 700;
+}
+
+@mixin myriadProRegular {
+  font-family: "MyriadPro-Regular";
+  font-weight: 400;
+}
+
+@mixin myriadProSemibold {
+  font-family: "MyriadPro-Semibold";
+  font-weight: 600;
+}
+
+@mixin myriadProIt {
+  font-family: "MyriadPro-It";
+  font-weight: 400;
+}
+
+@mixin gray-line {
+  content: "";
+  position: absolute;
+  left: 150px;
+  top: 114px;
+  width: 133px;
+  height: 1px;
+  background-color: #c5c5c5;
+}
+
+@mixin blocksHeaders {
+  h3 {
+    @include myriadProSemibold;
+
+    font-size: 30px;
+  }
+
+  span,
+  b {
+    font-size: 50px;
+  }
+
+  span {
+    color: #ffc600;
+  }
+}

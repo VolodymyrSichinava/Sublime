@@ -1,1 +1,121 @@
-//
+@import "../mixins";
+
+.header-wrapper {
+  padding-top: 106px;
+  background-image: url("../../img/header-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .header {
+    margin: 0 auto;
+    width: 1198px;
+
+    &-title {
+      padding-bottom: 64px;
+      padding-left: 28px;
+
+      h1 {
+        @include myriadProBold;
+
+        font-size: 202px;
+        line-height: 173px;
+        letter-spacing: -10px;
+        color: #fff;
+
+        span {
+          @include myriadProBold;
+
+          color: #ffc600;
+        }
+      }
+
+      p {
+        @include myriadProRegular;
+
+        padding-bottom: 27px;
+        padding-left: 14px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+
+        span {
+          color: #ffc600;
+        }
+      }
+
+      a {
+        @include myriadProRegular;
+
+        border-bottom: 1px solid transparent;
+        padding-left: 14px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #ffc600;
+        transition: all 0.5s;
+
+        &:hover {
+          border-bottom: 1px solid #ffc600;
+          color: #fff;
+          transition: all 0.5s;
+        }
+      }
+    }
+
+    &-subtitle {
+      padding-left: 46px;
+      height: 654px;
+      background-image: url("../img/header-image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+
+      h2 {
+        @include myriadProBold;
+
+        padding-top: 68px;
+        padding-bottom: 54px;
+        font-size: 60px;
+        line-height: 48px;
+        letter-spacing: -3px;
+        color: #fff;
+      }
+
+      span {
+        color: #ffc600;
+      }
+
+      &__menu {
+        margin-left: -3px;
+
+        ul {
+          display: flex;
+
+          li {
+            margin-right: 34px;
+
+            a {
+              @include myriadProRegular;
+
+              border-bottom: 1px solid transparent;
+              padding-bottom: 1px;
+              font-size: 18px;
+              text-decoration: none;
+              color: #ffc600;
+              transition: all 0.5s;
+
+              &:hover {
+                color: #fff;
+                transition: all 0.5s;
+              }
+
+              &:active {
+                border-bottom: 1px solid #ffc600;
+                text-decoration: none;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

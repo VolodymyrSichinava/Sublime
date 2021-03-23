@@ -1,0 +1,124 @@
+@import "../mixins";
+
+.projects {
+  padding: 46px 0 18px;
+
+  &-title {
+    @include blocksHeaders;
+
+    margin-left: 78px;
+
+    h3 {
+      position: relative;
+      padding-bottom: 18px;
+
+      &::after {
+        @include gray-line;
+
+        left: 114px;
+        top: 49px;
+      }
+    }
+
+    ul {
+      display: flex;
+      margin-bottom: 24px;
+      margin-left: 3px;
+      letter-spacing: -0.5px;
+    }
+
+    li {
+      @include myriadProSemibold;
+
+      position: relative;
+      list-style: none;
+      margin-right: 25px;
+      font-size: 10px;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      cursor: pointer;
+
+      &:hover {
+        color: #ffc600;
+        transition: color 0.3s;
+      }
+    }
+
+    .active {
+      &::before {
+        content: "";
+        position: absolute;
+        left: calc(50% - 12px);
+        top: 12px;
+        width: 23px;
+        height: 1px;
+        background-color: #ffc600;
+      }
+    }
+  }
+
+  &-image {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      position: relative;
+      margin-bottom: 2px;
+      height: 267px;
+      background-color: #161616;
+
+      img {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        transition: opacity 0.5s;
+
+        &:hover {
+          opacity: 0.2;
+        }
+      }
+
+      &:hover {
+        .visitSite {
+          position: absolute;
+          left: 30%;
+          top: calc(50% - 15px);
+          z-index: 1;
+          width: 35px;
+          height: 35px;
+          background: url("../../img/website.png") no-repeat;
+          transition: 0.2s;
+          animation: "fadeInUp";
+          animation-duration: 0.75s;
+
+          &:hover {
+            background: url("../../img/website-hover.png") no-repeat;
+            transition: 0.2s;
+          }
+        }
+
+        .loupe {
+          position: absolute;
+          left: 60%;
+          top: calc(50% - 15px);
+          z-index: 1;
+          width: 35px;
+          height: 35px;
+          background: url("../../img/loupe.png") no-repeat;
+          transition: 0.2s;
+          animation: "fadeInUp";
+          animation-duration: 0.75s;
+
+          &:hover {
+            background: url("../../img/loupe-hover.png") no-repeat;
+            transition: 0.2s;
+          }
+        }
+
+        img {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
+}

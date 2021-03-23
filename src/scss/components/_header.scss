@@ -46,8 +46,8 @@
       a {
         @include myriadProRegular;
 
+        margin-left: 14px;
         border-bottom: 1px solid transparent;
-        padding-left: 14px;
         font-size: 18px;
         text-decoration: none;
         color: #ffc600;
@@ -103,14 +103,9 @@
               transition: all 0.5s;
 
               &:hover {
+                border-bottom: 1px solid #ffc600;
                 color: #fff;
                 transition: all 0.5s;
-              }
-
-              &:active {
-                border-bottom: 1px solid #ffc600;
-                text-decoration: none;
-                color: #fff;
               }
             }
           }

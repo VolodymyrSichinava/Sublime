@@ -272,6 +272,72 @@
       .projects-image div:hover img {
         opacity: 0.2; }
 
+.process-wrapper {
+  padding: 41px 60px 64px 79px; }
+  .process-wrapper .process-text h3 {
+    font-family: "MyriadPro-Semibold";
+    font-weight: 600;
+    font-size: 30px; }
+  .process-wrapper .process-text span,
+  .process-wrapper .process-text b {
+    font-size: 50px; }
+  .process-wrapper .process-text span {
+    color: #ffc600; }
+  .process-wrapper .process-text__title {
+    position: relative;
+    margin-bottom: 22px;
+    word-spacing: 4px; }
+    .process-wrapper .process-text__title::after {
+      content: "";
+      position: absolute;
+      left: 150px;
+      top: 114px;
+      width: 133px;
+      height: 1px;
+      background-color: #c5c5c5;
+      left: 109px;
+      top: 50px; }
+  .process-wrapper .process-text__subtitle {
+    font-family: "MyriadPro-It";
+    font-weight: 400;
+    margin-bottom: 18px;
+    font-size: 16px; }
+  .process-wrapper .process-text__description {
+    font-family: "MyriadPro-Regular";
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 17px; }
+  .process-wrapper .process-imageText {
+    padding-top: 21px; }
+    .process-wrapper .process-imageText__item {
+      display: flex;
+      margin: 0 auto;
+      width: 880px; }
+      .process-wrapper .process-imageText__item .image-description {
+        padding: 24px 40px 0 34px;
+        width: 430px; }
+        .process-wrapper .process-imageText__item .image-description h4 {
+          font-family: "MyriadPro-Semibold";
+          font-weight: 600;
+          margin-bottom: 25px;
+          font-size: 30px;
+          word-spacing: 2px; }
+          .process-wrapper .process-imageText__item .image-description h4 i {
+            font-size: 50px; }
+        .process-wrapper .process-imageText__item .image-description span {
+          font-family: "MyriadPro-It";
+          font-weight: 400;
+          display: inline-block;
+          margin-bottom: 16px;
+          font-size: 16px;
+          line-height: 20px; }
+        .process-wrapper .process-imageText__item .image-description p {
+          font-family: "MyriadPro-Regular";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px; }
+
 .main {
   margin: 0 auto;
   width: 1198px;

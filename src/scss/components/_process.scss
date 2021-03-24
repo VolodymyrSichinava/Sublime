@@ -1,0 +1,82 @@
+@import "../mixins";
+
+.process-wrapper {
+  padding: 41px 60px 64px 79px;
+
+  .process {
+    &-text {
+      @include blocksHeaders;
+
+      &__title {
+        position: relative;
+        margin-bottom: 22px;
+        word-spacing: 4px;
+
+        &::after {
+          @include gray-line;
+
+          left: 109px;
+          top: 50px;
+        }
+      }
+
+      &__subtitle {
+        @include myriadProIt;
+
+        margin-bottom: 18px;
+        font-size: 16px;
+      }
+
+      &__description {
+        @include myriadProRegular;
+
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+
+    &-imageText {
+      padding-top: 21px;
+
+      &__item {
+        display: flex;
+        margin: 0 auto;
+        width: 880px;
+
+        .image-description {
+          padding: 24px 40px 0 34px;
+          width: 430px;
+
+          h4 {
+            @include myriadProSemibold;
+
+            margin-bottom: 25px;
+            font-size: 30px;
+            word-spacing: 2px;
+
+            i {
+              font-size: 50px;
+            }
+          }
+
+          span {
+            @include myriadProIt;
+
+            display: inline-block;
+            margin-bottom: 16px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+
+          p {
+            @include myriadProRegular;
+
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+}

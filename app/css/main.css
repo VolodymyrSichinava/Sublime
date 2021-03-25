@@ -390,6 +390,73 @@
           line-height: 13px;
           color: #fff; }
 
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0; }
+  .team-header {
+    padding: 10px 0 0 49px;
+    width: 321px;
+    word-spacing: 2px; }
+    .team-header h3 {
+      font-family: "MyriadPro-Semibold";
+      font-weight: 600;
+      font-size: 30px; }
+    .team-header span,
+    .team-header b {
+      font-size: 50px; }
+    .team-header span {
+      color: #ffc600; }
+    .team-header__title {
+      position: relative; }
+      .team-header__title::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        top: 114px;
+        width: 133px;
+        height: 1px;
+        background-color: #c5c5c5;
+        left: 69px;
+        top: 50px;
+        width: 84px; }
+  .team-content {
+    padding-left: 26px;
+    width: 877px; }
+    .team-content__description {
+      width: 625px; }
+      .team-content__description p {
+        font-family: "MyriadPro-It";
+        font-weight: 400;
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 19px; }
+      .team-content__description span {
+        font-family: "MyriadPro-Regular";
+        font-weight: 400;
+        display: inline-block;
+        margin-bottom: 32px;
+        font-size: 14px;
+        line-height: 16px; }
+    .team-content__persons .persons-list {
+      display: flex;
+      margin-bottom: 65px; }
+      .team-content__persons .persons-list .persons-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 19px;
+        font-size: 16px; }
+        .team-content__persons .persons-list .persons-item .persons-photo {
+          margin-bottom: 14px; }
+        .team-content__persons .persons-list .persons-item .name-persons {
+          font-family: "MyriadPro-Semibold";
+          font-weight: 600;
+          margin-bottom: 4px; }
+        .team-content__persons .persons-list .persons-item .specialty {
+          font-family: "MyriadPro-It";
+          font-weight: 400; }
+
 .main {
   margin: 0 auto;
   width: 1198px;

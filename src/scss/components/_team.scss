@@ -1,0 +1,82 @@
+@import "../mixins";
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0;
+
+  &-header {
+    @include blocksHeaders;
+
+    padding: 10px 0 0 49px;
+    width: 321px;
+    word-spacing: 2px;
+
+    &__title {
+      position: relative;
+
+      &::after {
+        @include gray-line;
+
+        left: 69px;
+        top: 50px;
+        width: 84px;
+      }
+    }
+  }
+
+  &-content {
+    padding-left: 26px;
+    width: 877px;
+
+    &__description {
+      width: 625px;
+
+      p {
+        @include myriadProIt;
+
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      span {
+        @include myriadProRegular;
+
+        display: inline-block;
+        margin-bottom: 32px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    &__persons {
+      .persons-list {
+        display: flex;
+        margin-bottom: 65px;
+
+        .persons-item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-right: 19px;
+          font-size: 16px;
+
+          .persons-photo {
+            margin-bottom: 14px;
+          }
+
+          .name-persons {
+            @include myriadProSemibold;
+
+            margin-bottom: 4px;
+          }
+
+          .specialty {
+            @include myriadProIt;
+          }
+        }
+      }
+    }
+  }
+}

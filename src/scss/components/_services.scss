@@ -1,0 +1,59 @@
+@import "../mixins";
+
+.services {
+  padding: 36px 49px 30px;
+  background: url("../../img/services.png") no-repeat;
+
+  &-content {
+    @include blocksHeaders;
+
+    // padding: 36px 0 0 49px;
+    color: #fff;
+
+    &__title {
+      position: relative;
+      word-spacing: 4px;
+
+      &::after {
+        @include gray-line;
+
+        left: 122px;
+        top: 50px;
+      }
+    }
+  }
+
+  &-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      width: 640px;
+
+      li {
+        display: block;
+        margin: 45px 86px 28px 0;
+        width: 230px;
+
+        .services-list__title {
+          @include myriadProRegular;
+
+          margin-bottom: 25px;
+          font-size: 18px;
+          color: #fff;
+        }
+
+        .services-list__description {
+          @include myriadProRegular;
+
+          font-size: 11px;
+          line-height: 13px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

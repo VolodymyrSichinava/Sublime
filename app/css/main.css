@@ -338,6 +338,58 @@
           font-size: 14px;
           line-height: 17px; }
 
+.services {
+  padding: 36px 49px 30px;
+  background: url("../../img/services.png") no-repeat; }
+  .services-content {
+    color: #fff; }
+    .services-content h3 {
+      font-family: "MyriadPro-Semibold";
+      font-weight: 600;
+      font-size: 30px; }
+    .services-content span,
+    .services-content b {
+      font-size: 50px; }
+    .services-content span {
+      color: #ffc600; }
+    .services-content__title {
+      position: relative;
+      word-spacing: 4px; }
+      .services-content__title::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        top: 114px;
+        width: 133px;
+        height: 1px;
+        background-color: #c5c5c5;
+        left: 122px;
+        top: 50px; }
+  .services-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px; }
+    .services-list ul {
+      display: flex;
+      flex-wrap: wrap;
+      width: 640px; }
+      .services-list ul li {
+        display: block;
+        margin: 45px 86px 28px 0;
+        width: 230px; }
+        .services-list ul li .services-list__title {
+          font-family: "MyriadPro-Regular";
+          font-weight: 400;
+          margin-bottom: 25px;
+          font-size: 18px;
+          color: #fff; }
+        .services-list ul li .services-list__description {
+          font-family: "MyriadPro-Regular";
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 13px;
+          color: #fff; }
+
 .main {
   margin: 0 auto;
   width: 1198px;

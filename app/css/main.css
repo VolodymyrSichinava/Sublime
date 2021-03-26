@@ -178,10 +178,10 @@
       font-family: "MyriadPro-Semibold";
       font-weight: 600;
       font-size: 30px; }
-    .projects-title span,
-    .projects-title b {
+    .projects-title .yellow-letter,
+    .projects-title .bold-letter {
       font-size: 50px; }
-    .projects-title span {
+    .projects-title .yellow-letter {
       color: #ffc600; }
     .projects-title h3 {
       position: relative;
@@ -278,10 +278,10 @@
     font-family: "MyriadPro-Semibold";
     font-weight: 600;
     font-size: 30px; }
-  .process-wrapper .process-text span,
-  .process-wrapper .process-text b {
+  .process-wrapper .process-text .yellow-letter,
+  .process-wrapper .process-text .bold-letter {
     font-size: 50px; }
-  .process-wrapper .process-text span {
+  .process-wrapper .process-text .yellow-letter {
     color: #ffc600; }
   .process-wrapper .process-text__title {
     position: relative;
@@ -347,10 +347,10 @@
       font-family: "MyriadPro-Semibold";
       font-weight: 600;
       font-size: 30px; }
-    .services-content span,
-    .services-content b {
+    .services-content .yellow-letter,
+    .services-content .bold-letter {
       font-size: 50px; }
-    .services-content span {
+    .services-content .yellow-letter {
       color: #ffc600; }
     .services-content__title {
       position: relative;
@@ -402,10 +402,10 @@
       font-family: "MyriadPro-Semibold";
       font-weight: 600;
       font-size: 30px; }
-    .team-header span,
-    .team-header b {
+    .team-header .yellow-letter,
+    .team-header .bold-letter {
       font-size: 50px; }
-    .team-header span {
+    .team-header .yellow-letter {
       color: #ffc600; }
     .team-header__title {
       position: relative; }
@@ -456,6 +456,71 @@
         .team-content__persons .persons-list .persons-item .specialty {
           font-family: "MyriadPro-It";
           font-weight: 400; }
+
+.testimonials {
+  display: flex;
+  padding: 49px 0;
+  min-height: 418px;
+  color: #fff;
+  background-color: #000; }
+  .testimonials-text {
+    padding-left: 49px;
+    width: 760px; }
+    .testimonials-text h3 {
+      font-family: "MyriadPro-Semibold";
+      font-weight: 600;
+      font-size: 30px; }
+    .testimonials-text .yellow-letter,
+    .testimonials-text .bold-letter {
+      font-size: 50px; }
+    .testimonials-text .yellow-letter {
+      color: #ffc600; }
+    .testimonials-text__title {
+      position: relative;
+      margin-bottom: 73px; }
+      .testimonials-text__title::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        top: 114px;
+        width: 133px;
+        height: 1px;
+        background-color: #c5c5c5;
+        left: 91px;
+        top: 54px;
+        width: 84px; }
+    .testimonials-text__paragraph {
+      font-family: "MyriadPro-It";
+      font-weight: 400;
+      padding: 0 0 18px 43px;
+      font-size: 16px;
+      line-height: 19px; }
+    .testimonials-text__subject {
+      font-family: "MyriadPro-Regular";
+      font-weight: 400;
+      padding: 0 0 20px 43px;
+      font-size: 14px;
+      line-height: 17px; }
+  .testimonials-photo {
+    padding: 52px 0 0 39px; }
+    .testimonials-photo__image {
+      margin-bottom: 22px;
+      border: 3px solid #ffa800;
+      border-radius: 50%;
+      width: 127px;
+      height: 127px; }
+    .testimonials-photo__text {
+      padding-left: 11px;
+      font-size: 16px;
+      text-align: center; }
+      .testimonials-photo__text .name-persons {
+        font-family: "MyriadPro-Semibold";
+        font-weight: 600;
+        padding-bottom: 3px; }
+      .testimonials-photo__text .specialty {
+        font-family: "MyriadPro-It";
+        font-weight: 400;
+        letter-spacing: 0.5px; }
 
 .main {
   margin: 0 auto;

@@ -522,6 +522,76 @@
         font-weight: 400;
         letter-spacing: 0.5px; }
 
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  min-height: 543px; }
+  .blogs-filter {
+    padding: 34px 0 0 55px;
+    width: 320px; }
+    .blogs-filter h3 {
+      font-family: "MyriadPro-Semibold";
+      font-weight: 600;
+      font-size: 30px; }
+    .blogs-filter .yellow-letter,
+    .blogs-filter .bold-letter {
+      font-size: 50px; }
+    .blogs-filter .yellow-letter {
+      color: #ffc600; }
+    .blogs-filter h3 {
+      position: relative;
+      padding-bottom: 18px; }
+      .blogs-filter h3::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        top: 114px;
+        width: 133px;
+        height: 1px;
+        background-color: #c5c5c5;
+        left: 4px;
+        top: 50px;
+        width: 84px; }
+    .blogs-filter__list {
+      float: right;
+      padding: 32px 25px 0 0; }
+      .blogs-filter__list li {
+        font-family: "MyriadPro-Regular";
+        font-weight: 400;
+        margin-bottom: 24px;
+        font-size: 19px;
+        letter-spacing: -0.4px; }
+        .blogs-filter__list li:hover {
+          cursor: pointer; }
+  .blogs-posts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 0 88px;
+    width: 878px; }
+    .blogs-posts__item {
+      margin: 0 72px 50px 0;
+      width: 190px; }
+    .blogs-posts__photo {
+      margin-bottom: 6px; }
+    .blogs-posts__date-creation {
+      font-family: "MyriadPro-Regular";
+      font-weight: 400;
+      margin-bottom: 24px;
+      font-size: 18px;
+      color: #ffc600; }
+    .blogs-posts__title {
+      font-family: "MyriadPro-Bold";
+      font-weight: 700;
+      margin-bottom: 16px;
+      font-size: 15px;
+      letter-spacing: -0.1px; }
+    .blogs-posts__subtitle {
+      font-family: "MyriadPro-It";
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px; }
+
 .main {
   margin: 0 auto;
   width: 1198px;

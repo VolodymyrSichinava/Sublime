@@ -592,6 +592,144 @@
       font-size: 12px;
       line-height: 14px; }
 
+.contact {
+  display: flex;
+  padding-bottom: 73px; }
+  .contact-map {
+    width: 500px; }
+    .contact-map img {
+      display: block; }
+  .contact-info {
+    padding: 47px 0 0 76px;
+    width: 698px;
+    background-color: #2046b3; }
+    .contact-info h3 {
+      font-family: "MyriadPro-Semibold";
+      font-weight: 600;
+      font-size: 30px; }
+    .contact-info .yellow-letter,
+    .contact-info .bold-letter {
+      font-size: 50px; }
+    .contact-info .yellow-letter {
+      color: #ffc600; }
+    .contact-info h3 {
+      position: relative;
+      padding: 0 0 20px 22px;
+      color: #fff; }
+      .contact-info h3::after {
+        content: "";
+        position: absolute;
+        left: 150px;
+        top: 114px;
+        width: 133px;
+        height: 1px;
+        background-color: #c5c5c5;
+        left: 30px;
+        top: 50px;
+        width: 172px;
+        height: 2px; }
+    .contact-info__form {
+      margin-bottom: 60px;
+      width: 412px; }
+      .contact-info__form input {
+        height: 35px; }
+      .contact-info__form input,
+      .contact-info__form textarea {
+        font-family: "MyriadPro-Semibold";
+        font-weight: 600;
+        outline: none;
+        border: 2px solid #c5c5c5;
+        padding: 2px 0 0 12px;
+        font-size: 16px;
+        color: #fff;
+        background-color: transparent; }
+        .contact-info__form input::-moz-placeholder, .contact-info__form textarea::-moz-placeholder {
+          color: #fff; }
+        .contact-info__form input:-ms-input-placeholder, .contact-info__form textarea:-ms-input-placeholder {
+          color: #fff; }
+        .contact-info__form input::placeholder,
+        .contact-info__form textarea::placeholder {
+          color: #fff; }
+      .contact-info__form #name {
+        margin-bottom: 18px;
+        width: 412px; }
+      .contact-info__form #mobile {
+        margin: 0 43px 12px 0;
+        width: 159px; }
+      .contact-info__form #email {
+        margin-bottom: 12px;
+        width: 206px; }
+      .contact-info__form .message {
+        overflow: hidden;
+        margin-bottom: 19px;
+        padding-top: 6px;
+        width: 412px;
+        height: 76px;
+        resize: none; }
+      .contact-info__form #submit {
+        margin-left: 2px;
+        border: 2px solid transparent;
+        padding: 2px 6px 0 0;
+        width: 108px;
+        height: 33px;
+        color: #000;
+        background-color: #ffc600;
+        transition: all 0.4s; }
+        .contact-info__form #submit:hover {
+          border: 2px solid #fff;
+          color: #fff;
+          transition: all 0.4s;
+          cursor: pointer; }
+    .contact-info__data {
+      border-bottom: 2px solid rgba(197, 197, 197, 0.5);
+      padding: 0 0 46px 22px;
+      width: 412px; }
+      .contact-info__data span,
+      .contact-info__data p {
+        font-family: "MyriadPro-Semibold";
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff; }
+      .contact-info__data a {
+        font-family: "MyriadPro-Regular";
+        font-weight: 400;
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff; }
+      .contact-info__data p {
+        margin-bottom: 34px; }
+    .contact-info__address {
+      margin-bottom: 25px; }
+      .contact-info__address span {
+        display: inline-block;
+        margin-right: 19px; }
+    .contact-info__phone {
+      margin-bottom: 14px; }
+      .contact-info__phone span {
+        display: inline-block;
+        margin-right: 31px; }
+    .contact-info__email {
+      margin-bottom: 20px; }
+      .contact-info__email span {
+        display: inline-block;
+        margin-right: 37px; }
+    .contact-info__social {
+      padding: 8px 0 0 22px; }
+      .contact-info__social ul {
+        display: flex; }
+        .contact-info__social ul li {
+          margin-right: 5px; }
+          .contact-info__social ul li a {
+            display: block;
+            width: 19px;
+            height: 19px; }
+          .contact-info__social ul li .twitter {
+            background-image: url("../../img/twitter.png"); }
+          .contact-info__social ul li .linkedin {
+            background-image: url("../../img/linkedin.png"); }
+          .contact-info__social ul li .facebook {
+            background-image: url("../../img/facebook.png"); }
+
 .main {
   margin: 0 auto;
   width: 1198px;

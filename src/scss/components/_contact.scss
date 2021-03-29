@@ -1,0 +1,187 @@
+@import "../mixins";
+
+.contact {
+  display: flex;
+  padding-bottom: 73px;
+
+  &-map {
+    width: 500px;
+
+    img {
+      display: block;
+    }
+  }
+
+  &-info {
+    @include blocksHeaders;
+
+    padding: 47px 0 0 76px;
+    width: 698px;
+    background-color: #2046b3;
+
+    h3 {
+      position: relative;
+      padding: 0 0 20px 22px;
+      color: #fff;
+
+      &::after {
+        @include gray-line;
+
+        left: 30px;
+        top: 50px;
+        width: 172px;
+        height: 2px;
+      }
+    }
+
+    &__form {
+      margin-bottom: 60px;
+      width: 412px;
+
+      input {
+        height: 35px;
+      }
+
+      input,
+      textarea {
+        @include myriadProSemibold;
+
+        outline: none;
+        border: 2px solid #c5c5c5;
+        padding: 2px 0 0 12px;
+        font-size: 16px;
+        color: #fff;
+        background-color: transparent;
+
+        &::placeholder {
+          color: #fff;
+        }
+      }
+
+      #name {
+        margin-bottom: 18px;
+        width: 412px;
+      }
+
+      #mobile {
+        margin: 0 43px 12px 0;
+        width: 159px;
+      }
+
+      #email {
+        margin-bottom: 12px;
+        width: 206px;
+      }
+
+      .message {
+        overflow: hidden;
+        margin-bottom: 19px;
+        padding-top: 6px;
+        width: 412px;
+        height: 76px;
+        resize: none;
+      }
+
+      #submit {
+        margin-left: 2px;
+        border: 2px solid transparent;
+        padding: 2px 6px 0 0;
+        width: 108px;
+        height: 33px;
+        color: #000;
+        background-color: #ffc600;
+        transition: all 0.4s;
+
+        &:hover {
+          border: 2px solid #fff;
+          color: #fff;
+          transition: all 0.4s;
+          cursor: pointer;
+        }
+      }
+    }
+
+    &__data {
+      border-bottom: 2px solid rgba($color: #c5c5c5, $alpha: 0.5);
+      padding: 0 0 46px 22px;
+      width: 412px;
+
+      span,
+      p {
+        @include myriadProSemibold;
+
+        font-size: 16px;
+        color: #fff;
+      }
+
+      a {
+        @include myriadProRegular;
+
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      p {
+        margin-bottom: 34px;
+      }
+    }
+
+    &__address {
+      margin-bottom: 25px;
+
+      span {
+        display: inline-block;
+        margin-right: 19px;
+      }
+    }
+
+    &__phone {
+      margin-bottom: 14px;
+
+      span {
+        display: inline-block;
+        margin-right: 31px;
+      }
+    }
+
+    &__email {
+      margin-bottom: 20px;
+
+      span {
+        display: inline-block;
+        margin-right: 37px;
+      }
+    }
+
+    &__social {
+      padding: 8px 0 0 22px;
+
+      ul {
+        display: flex;
+
+        li {
+          margin-right: 5px;
+
+          a {
+            display: block;
+            width: 19px;
+            height: 19px;
+          }
+
+          .twitter {
+            background-image: url("../../img/twitter.png");
+          }
+
+          .linkedin {
+            background-image: url("../../img/linkedin.png");
+          }
+
+          .facebook {
+            background-image: url("../../img/facebook.png");
+          }
+        }
+      }
+    }
+  }
+}

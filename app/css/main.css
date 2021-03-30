@@ -730,6 +730,84 @@
           .contact-info__social ul li .facebook {
             background-image: url("../../img/facebook.png"); }
 
+.footer {
+  display: flex;
+  padding-bottom: 38px; }
+  .footer-links {
+    width: 321px;
+    background-color: #000; }
+    .footer-links__title {
+      padding: 115px 0 0 25px; }
+      .footer-links__title p {
+        font-family: "MyriadPro-Bold";
+        font-weight: 700;
+        margin-bottom: 49px;
+        font-size: 60px;
+        letter-spacing: -3.2px;
+        color: #fff; }
+        .footer-links__title p span {
+          color: #ffc600; }
+    .footer-links__list {
+      position: relative;
+      padding: 0 0 28px 4px; }
+      .footer-links__list::after {
+        content: "";
+        position: absolute;
+        left: 1px;
+        bottom: 0;
+        width: 115px;
+        height: 2px;
+        background-color: #ffc600; }
+      .footer-links__list li {
+        margin-bottom: 20px; }
+        .footer-links__list li a {
+          font-family: "MyriadPro-Semibold";
+          font-weight: 600;
+          font-size: 16px;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          transition: all 0.4s; }
+          .footer-links__list li a:hover {
+            color: #ffc600; }
+          .footer-links__list li a:active {
+            color: #ffc600; }
+    .footer-links__social {
+      display: flex;
+      padding: 14px 0 0 3px; }
+      .footer-links__social li {
+        margin-right: 5px; }
+        .footer-links__social li a {
+          display: block;
+          width: 19px;
+          height: 19px; }
+        .footer-links__social li .twitter {
+          background-image: url("../../img/twitter.png"); }
+        .footer-links__social li .linkedin {
+          background-image: url("../../img/linkedin.png"); }
+        .footer-links__social li .facebook {
+          background-image: url("../../img/facebook.png"); }
+  .footer-image {
+    width: 877px; }
+    .footer-image__container {
+      position: relative;
+      background-color: #000; }
+    .footer-image img {
+      display: block;
+      opacity: 0.22; }
+    .footer-image p {
+      font-family: "MyriadPro-Bold";
+      font-weight: 700;
+      position: absolute;
+      left: 24px;
+      top: 340px;
+      font-size: 110px;
+      line-height: 88px;
+      letter-spacing: -4.8px;
+      color: #fff; }
+      .footer-image p span {
+        color: #ffc600; }
+
 .main {
   margin: 0 auto;
   width: 1198px;

@@ -1,0 +1,122 @@
+@import "../mixins";
+
+.footer {
+  display: flex;
+  padding-bottom: 38px;
+
+  &-links {
+    width: 321px;
+    background-color: #000;
+
+    &__title {
+      padding: 115px 0 0 25px;
+
+      p {
+        @include myriadProBold;
+
+        margin-bottom: 49px;
+        font-size: 60px;
+        letter-spacing: -3.2px;
+        color: #fff;
+
+        span {
+          color: #ffc600;
+        }
+      }
+    }
+
+    &__list {
+      position: relative;
+      padding: 0 0 28px 4px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 1px;
+        bottom: 0;
+        width: 115px;
+        height: 2px;
+        background-color: #ffc600;
+      }
+
+      li {
+        margin-bottom: 20px;
+
+        a {
+          @include myriadProSemibold;
+
+          font-size: 16px;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #fff;
+          transition: all 0.4s;
+
+          &:hover {
+            color: #ffc600;
+          }
+
+          &:active {
+            color: #ffc600;
+          }
+        }
+      }
+    }
+
+    &__social {
+      display: flex;
+      padding: 14px 0 0 3px;
+
+      li {
+        margin-right: 5px;
+
+        a {
+          display: block;
+          width: 19px;
+          height: 19px;
+        }
+
+        .twitter {
+          background-image: url("../../img/twitter.png");
+        }
+
+        .linkedin {
+          background-image: url("../../img/linkedin.png");
+        }
+
+        .facebook {
+          background-image: url("../../img/facebook.png");
+        }
+      }
+    }
+  }
+
+  &-image {
+    width: 877px;
+
+    &__container {
+      position: relative;
+      background-color: #000;
+    }
+
+    img {
+      display: block;
+      opacity: 0.22;
+    }
+
+    p {
+      @include myriadProBold;
+
+      position: absolute;
+      left: 24px;
+      top: 340px;
+      font-size: 110px;
+      line-height: 88px;
+      letter-spacing: -4.8px;
+      color: #fff;
+
+      span {
+        color: #ffc600;
+      }
+    }
+  }
+}

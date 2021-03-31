@@ -770,8 +770,6 @@
           transition: all 0.4s; }
           .footer-links__list li a:hover {
             color: #ffc600; }
-          .footer-links__list li a:active {
-            color: #ffc600; }
     .footer-links__social {
       display: flex;
       padding: 14px 0 0 3px; }

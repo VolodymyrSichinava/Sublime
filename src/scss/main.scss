@@ -9,6 +9,7 @@
 //   @include burger;
 // }
 
+@import "./vendor/include-media";
 @import "./components/header";
 @import "./components/about";
 @import "./components/projects";
@@ -24,4 +25,8 @@
   margin: 0 auto;
   width: 1198px;
   background-color: #fff;
+
+  @include media ("<1198px") {
+    width: 100%;
+  }
 }
